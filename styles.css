@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.top,
+.middle,
+.bottom {
+  display: flex;
+  flex: 1;
+}
+
+.top-left,
+.middle-left,
+.bottom-left {
+  width: 35%;
+}
