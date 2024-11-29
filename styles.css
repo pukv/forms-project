@@ -17,3 +17,25 @@ body {
 .bottom-left {
   width: 35%;
 }
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.3;
+  height: 35%;
+  text-align: center;
+  align-items: center;
+}
+
+.odin-img {
+  height: 80%;
+  width: auto;
+  object-fit: contain;
+}
