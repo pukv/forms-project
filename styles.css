@@ -9,13 +9,19 @@ body {
 .middle,
 .bottom {
   display: flex;
-  flex: 1;
+  height: 33.3%;
 }
 
 .top-left,
 .middle-left,
 .bottom-left {
   width: 35%;
+}
+
+.top-right,
+.middle-right,
+.bottom-right {
+  padding-left: 40px;
 }
 
 .top-left {
@@ -38,4 +44,29 @@ body {
   height: 80%;
   width: auto;
   object-fit: contain;
+}
+
+.top-right p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.forms-container {
+  display: flex;
+}
+
+input {
+  padding: 5px;
+  width: 220px;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin-right: 60px;
+  margin-bottom: 16px;
 }
