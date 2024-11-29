@@ -26,7 +26,6 @@ body {
 
 .top-left {
   display: flex;
-  flex-direction: column;
   flex-direction: column-reverse;
 }
 
@@ -50,6 +49,10 @@ body {
   font-size: 18px;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-right div {
+  margin-top: 150px;
 }
 
 ul {
@@ -79,5 +82,9 @@ input {
 
 button {
   width: 220px;
-  padding: 8px;
+  padding: 12px;
+  color: white;
+  background-color: #6b8e23;
+  border: none;
+  border-radius: 8px;
 }
