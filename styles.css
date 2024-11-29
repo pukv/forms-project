@@ -76,3 +76,8 @@ input {
   flex-direction: column-reverse;
   text-align: center;
 }
+
+button {
+  width: 220px;
+  padding: 8px;
+}
