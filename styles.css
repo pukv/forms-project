@@ -70,3 +70,9 @@ input {
   margin-right: 60px;
   margin-bottom: 16px;
 }
+
+.bottom-left {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
